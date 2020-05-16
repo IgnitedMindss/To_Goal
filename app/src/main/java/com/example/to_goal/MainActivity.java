@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etPercent = (EditText) findViewById(R.id.etPercent);
+        etPercent = findViewById(R.id.etPercent);
 
-        ImageView img = (ImageView) findViewById(R.id.imageView1);
+        ImageView img = findViewById(R.id.imageView1);
         mImageDrawable = (ClipDrawable) img.getDrawable();
         mImageDrawable.setLevel(0);
     }
